@@ -1,0 +1,256 @@
+.body{
+font-family: 'Roboto';
+background-color: #ffffff;
+font-style: normal;
+}
+/* HEADER */
+.ul-nav{
+        list-style: none;
+}
+.nav-studio:hover,
+.nav-portfolio:hover,
+.nav-contacts:hover,
+.mail:hover,
+.telefon:hover{
+        color: #2196F3;
+
+}
+.nav-studio  {
+        text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42;
+    color: #212121;
+}
+
+.nav-portfolio {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.42;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.nav-contacts{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.42;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.header-href{
+        text-decoration: none;
+
+}
+.logo-web{
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.191;
+    color: #2196F3;
+}
+.logo-studio{
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.191;
+        color: #000000;
+}
+.ul-header{
+        list-style: none;
+        
+}
+.mail{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #757575;
+}
+.telefon{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        
+        color: #757575;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* MAIN*/ 
+.title{
+        background-color:#2F303A ;
+}
+.title-h{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.363;
+        color: #ffffff;
+}
+.title-button{
+        cursor: pointer;
+        background-color: #2196F3;
+        color: #ffffff;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.benefits-ul{
+        list-style: none;
+}
+.section-h{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.166;
+        color: #212121;
+}
+.benefits-h{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.142;
+        color: #212121;
+}
+.benefits-p{
+        font-weight: 400;
+         font-size: 14px;
+        line-height: 1.714;
+        color: #757575;
+}
+.images-ul{
+list-style: none;
+}
+.team{
+        background-color: #f5f4fa;
+}
+.team-ul{
+        list-style: none;
+}
+.team-h{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        color: #212121
+}
+.team-p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        color: #757575;
+}
+
+
+/* FOOTER */
+.footer{
+        background-color: #2F303A;
+}
+.footer-a{
+text-decoration: none;
+}
+.footer-web{
+        font-family: 'Raleway';
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 1.191;
+                color: #2196F3;
+}
+.footer-studio{
+        font-family: 'Raleway';
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 1.191;
+                color: #ffffff;
+}
+.footer-ul{
+        list-style: none;
+}
+.adres{
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 400;
+                font-size: 14px;
+                line-height: 1.71;
+                color: #ffffff;
+}
+.footer-mail{
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel{
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+}
+.adres:hover,
+.footer-mail:hover,
+.footer-tel:hover{
+color: #2196F3;
+}
+
+/* PORTFOLIO */
+.button-ul{
+        list-style: none;
+}
+.button-everyone{
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+}
+.button-websites{
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #212121;
+}
+.button-appendices{
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #212121;
+}
+.button-design{
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #212121;
+}
+.button-marketing{
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.625;
+        color: #212121;
+}
+.button-everyone:hover,
+.button-websites:hover,
+.button-appendices:hover,
+.button-design:hover,
+.button-marketing:hover{
+color: #ffffff;
+background-color: #2196F3;
+}
+.portfolio-ul{
+        list-style: none;
+}
+.portfolio-h{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        color: #212121;
+}
+.portfolio-p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.875;
+        color: #757575;
+}
