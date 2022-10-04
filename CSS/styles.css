@@ -67,10 +67,10 @@
 }
 .ul-header {
   list-style: none;
+  font-weight: 500;
 }
 .mail-telefon {
   text-decoration: none;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   color: var(--gray-color);
