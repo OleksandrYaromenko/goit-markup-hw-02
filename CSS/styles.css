@@ -1,6 +1,6 @@
 :root {
   --blue-color: #2196f3;
-  --blaсk-color: #212121;
+  --black-color: #212121;
   --gray-color: #757575;
   --white-color: #ffffff;
   --title-color: #2f303a;
@@ -31,7 +31,7 @@
   text-decoration: none;
   font-size: 14px;
   line-height: 1.42;
-  color: var(--blaсk-color);
+  color:var(--black-color);
   letter-spacing: 0.02em;
 }
 
@@ -40,7 +40,7 @@
   font-family: var(--type-footer-logo);
   font-size: 26px;
   line-height: 1.191;
-  color:var(--blaсk-color)
+  color:var(--black-color)
 }
 
 .header-contacts {
@@ -85,7 +85,7 @@
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--blaсk-color);
+  color: var(--black-color);
 }
 .visually-hidden {
   position: absolute;
@@ -103,7 +103,7 @@
 .main-benefits-title {
   font-size: 14px;
   line-height: 1.142;
-  color: var(--blaсk-color);
+  color: var(--black-color);
   letter-spacing: 0.03em;
 }
 .main-benefits-title-paragraph {
