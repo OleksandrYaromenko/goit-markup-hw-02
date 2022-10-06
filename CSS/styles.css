@@ -7,23 +7,26 @@
   --team-color: #f5f4fa;
   --footer-mail-tel-color: rgba(255, 255, 255, 0.6);
   --type-footer-logo: 'Raleway';
-  --button-font-family: 'Roboto';
+  --font-family-ronoto:'Roboto', sans-serif;
 }
 .body {
-  font-family: 'Roboto';
+  font-family: var(--font-family-ronoto);
   font-style: normal;
 }
 /* HEADER */
-.ul-nav {
+.header-nav {
   list-style: none;
 }
-.nav-studio:hover,
-.nav-portfolio:hover,
-.nav-contacts:hover,
-.mail-telefon:hover {
+.header-nav-link:hover,
+.header-contacts-link:hover {
   color: var(--blue-color);
 }
-.nav-studio {
+
+.header-logo-web {
+  color: var(--blue-color);
+}
+
+.header-nav-link {
   font-weight: 500;
   text-decoration: none;
   font-size: 14px;
@@ -32,42 +35,19 @@
   letter-spacing: 0.02em;
 }
 
-.nav-portfolio {
-  font-weight: 500;
+.header-logo {
   text-decoration: none;
-  font-size: 14px;
-  line-height: 1.42;
-  color: var(--blaсk-color);
-  letter-spacing: 0.02em;
-}
-.nav-contacts {
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.42;
-  color: var(--blaсk-color);
-  letter-spacing: 0.02em;
-}
-.header-href {
-  text-decoration: none;
-}
-.logo-web {
   font-family: var(--type-footer-logo);
   font-size: 26px;
   line-height: 1.191;
-  color: var(--blue-color);
+  color: var(--blaсk-color);
 }
-.logo-studio {
-  font-family: var(--type-footer-logo);
-  font-size: 26px;
-  line-height: 1.191;
-  color: #000000;
-}
-.ul-header {
+
+.header-contacts {
   list-style: none;
   font-weight: 500;
 }
-.mail-telefon {
+.header-contacts-link {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.142;
@@ -76,7 +56,7 @@
 }
 
 /* MAIN*/
-.title {
+.main-title {
   background-color: var(--title-color);
 }
 .title-h {
@@ -86,7 +66,7 @@
   color: var(--white-color);
   letter-spacing: 0.06em;
 }
-.title-button {
+.main-title-button {
   font-family: var(--button-font-family);
   font-weight: 700;
   cursor: pointer;
@@ -98,7 +78,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border: none;
 }
-.benefits-ul {
+.main-benefits-list {
   list-style: none;
 }
 .section-h {
@@ -120,35 +100,35 @@
   margin: -1px;
 }
 
-.benefits-h {
+.main-benefits-title {
   font-size: 14px;
   line-height: 1.142;
   color: var(--blaсk-color);
   letter-spacing: 0.03em;
 }
-.benefits-p {
+.main-benefits-title-paragraph {
   font-size: 14px;
   line-height: 1.714;
   color: var(--gray-color);
   letter-spacing: 0.03em;
 }
-.images-ul {
+.main-what-we-do-images {
   list-style: none;
 }
-.team {
+.main-team {
   background-color: var(--team-color);
 }
-.team-ul {
+.main-team-list {
   list-style: none;
 }
-.team-h {
+.main-team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   color: var(--blaсk-color);
   letter-spacing: 0.03em;
 }
-.team-p {
+.main-team-position {
   font-size: 16px;
   line-height: 1.18;
   color: var(--gray-color);
@@ -159,27 +139,22 @@
 .footer {
   background-color: var(--title-color);
 }
-.footer-a {
+.footer-link {
   text-decoration: none;
+  font-family: var(--type-footer-logo);
+  font-size: 26px;
+  line-height: 1.191;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 .footer-web {
-  font-family: var(--type-footer-logo);
-  font-size: 26px;
-  line-height: 1.191;
-  letter-spacing: 0.03em;
   color: var(--blue-color);
 }
-.footer-studio {
-  font-family: var(--type-footer-logo);
-  font-size: 26px;
-  line-height: 1.191;
-  color: var(--white-color);
-  letter-spacing: 0.03em;
-}
-.footer-ul {
+
+.footer-list {
   list-style: none;
 }
-.adres {
+.footer-list-adres {
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
@@ -187,7 +162,7 @@
   color: var(--white-color);
   letter-spacing: 0.03em;
 }
-.footer-main-telefon {
+.footer-list-contacts {
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
@@ -196,17 +171,16 @@
   letter-spacing: 0.03em;
 }
 
-.adres:hover,
-.footer-mail:hover,
-.footer-tel:hover {
+.footer-list-adres:hover,
+.footer-list-contacts:hover {
   color: var(--blue-color);
 }
 
 /* PORTFOLIO */
-.button-ul {
+.main-button-list {
   list-style: none;
 }
-.button-everyone {
+.main-button-list-everyone {
   font-family: var(--button-font-family);
   cursor: pointer;
   font-size: 16px;
@@ -215,17 +189,7 @@
   border: none;
   font-weight: 500;
 }
-.button-websites {
-  font-family: var(--button-font-family);
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 1.625;
-  letter-spacing: 0.03em;
-  color: var(--blaсk-color);
-  border: none;
-  font-weight: 500;
-}
-.button-appendices {
+.main-button-list-websites {
   font-family: var(--button-font-family);
   cursor: pointer;
   font-size: 16px;
@@ -235,7 +199,7 @@
   border: none;
   font-weight: 500;
 }
-.button-design {
+.main-button-list-appendices {
   font-family: var(--button-font-family);
   cursor: pointer;
   font-size: 16px;
@@ -245,7 +209,7 @@
   border: none;
   font-weight: 500;
 }
-.button-marketing {
+.main-button-list-design {
   font-family: var(--button-font-family);
   cursor: pointer;
   font-size: 16px;
@@ -255,24 +219,34 @@
   border: none;
   font-weight: 500;
 }
-.button-everyone:hover,
-.button-websites:hover,
-.button-appendices:hover,
-.button-design:hover,
-.button-marketing:hover {
+.main-button-list-marketing {
+  font-family: var(--button-font-family);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--blaсk-color);
+  border: none;
+  font-weight: 500;
+}
+.main-button-list-everyone:hover,
+.main-button-list-websites:hover,
+.main-button-list-appendices:hover,
+.main-button-list-design:hover,
+.main-button-list-marketing:hover {
   color: var(--white-color);
   background-color: var(--blue-color);
 }
-.portfolio-ul {
+.main-portfolio-list {
   list-style: none;
 }
-.portfolio-h {
+.main-portfolio-titel {
   font-size: 18px;
   line-height: 2;
   color: var(--blaсk-color);
   letter-spacing: 0.03em;
 }
-.portfolio-p {
+.main-portfolio-paragraph {
   font-size: 16px;
   line-height: 1.875;
   color: var(--gray-color);
